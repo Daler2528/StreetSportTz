@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django migration files (optional, lekin ko‘p hollarda saqlanadi)
+# Agar siz migration fayllarni versiya nazoratiga qo‘shmoqchi bo‘lsangiz, buni o‘chiring
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+
+# IDE config files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite (agar ishlatilayotgan bo‘lsa)
+*.sqlite3
+
+# media and static files
+/media/
+staticfiles/
+media/
+
+# dotenv files
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+.tox/
+# Migrations ichidagi cache fayllarini ignore qilamiz
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/
+
+
